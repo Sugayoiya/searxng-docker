@@ -52,7 +52,7 @@ services:
     networks:
       - searxng
     ports:
-      - "127.0.0.1:9090:8080"
+      - "8080:8080"
     volumes:
       - ./searxng:/etc/searxng:rw
     environment:
